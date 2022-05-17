@@ -1,6 +1,7 @@
 .intro {
   padding-top: 92px;
   width: calc(928px + 56*(100vw - 1024px)/256);
+  max-width: 984px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
