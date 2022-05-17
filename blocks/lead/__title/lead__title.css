@@ -6,14 +6,12 @@
   margin: 0;
   text-align: center;
   width: 720px;
-  white-space: pre-line;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .lead__title {
-    font-size: calc(40px + 52*(100vw - 320px)/448);
+    font-size: calc(40px + 56*(100vw - 320px)/448);
     width: calc(288px + 432*(100vw - 320px)/448);
-    line-height: 110%;
   }
   }
 

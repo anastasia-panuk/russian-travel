@@ -4,6 +4,12 @@
   row-gap: 26px;
 }
 
+@media screen  and (max-width: 768px) {
+  .place__paragraphs {
+    row-gap: 25px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .place__paragraphs {
     width: 90%;

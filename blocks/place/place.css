@@ -12,12 +12,13 @@
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .place {
-    column-gap: 28px;
+    gap: 45px 28px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place {
     grid-template-columns: 100%;
+    row-gap: 32px;
   }
 }
